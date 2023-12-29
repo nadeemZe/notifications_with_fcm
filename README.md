@@ -14,7 +14,7 @@ There are 3 conditions when we receive notifications
 2-When the app is opened and the user is using it.
 3-When the app is not opened not it is completely closed. It is running in the background.
 
-#TO handle the notifications in your flutter app
+### TO handle the notifications in your flutter app
 
 add dependencies :
 
@@ -32,7 +32,7 @@ firebase_messaging:
     Then inside main:
     FirebaseMessaging.onBackgroundMessage(backgroundHandler);
 
- # Note: To setup firebase to flutter app you need to use flutterfire_cli (manually is no longer supported)     
+ ### Note: To setup firebase to flutter app you need to use flutterfire_cli (manually is no longer supported)     
 
  ## To see other projects developed by me :
 
