@@ -10,8 +10,8 @@ Create firebase project then add your flutter app, send notifications with fireb
 
 There are 3 conditions when we receive notifications:
 
- 1-When the app is closed.
- 2-When the app is opened and the user is using it.
+ 1-When the app is closed.\n
+ 2-When the app is opened and the user is using it.\n
  3-When the app is not opened not it is completely closed. It is running in the background.
 
 ### TO handle the notifications in your flutter app
@@ -31,7 +31,7 @@ firebase_messaging:
     @pragma('vm:entry-point')
     Future<void> backgroundHandler(RemoteMessage message) async {//logic to handle message here}
     
-    Then inside main:
+    //Then inside main:
     FirebaseMessaging.onBackgroundMessage(backgroundHandler);
 
  ### Note: To setup firebase to flutter app you need to use flutterfire_cli (manually is no longer supported)     
